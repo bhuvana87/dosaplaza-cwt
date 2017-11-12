@@ -1,0 +1,48 @@
+.tab-content.scrolng-tab .tab-pane{
+  padding:10px;
+  margin:10px 0 0 0;
+  }
+.scrtabs-tab-container * {
+  box-sizing: border-box;
+}
+
+.scrtabs-tab-container {
+  height: 42px;
+}
+
+.scrtabs-tabs-fixed-container {
+  float: left;
+  height: 42px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.scrtabs-tabs-movable-container {
+  position: relative;
+}
+
+.scrtabs-tab-scroll-arrow {
+  border: none;
+  background:#8dc63f;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font-size: 12px;
+  height: 22px;
+  width: 22px;
+  margin:10px 0 0 0;
+  text-align:center;
+  padding:4px 0 0 0;
+}
+
+.scrtabs-tab-scroll-arrow:hover {
+opacity:0.8;
+}
+
+.scrtabs-tabs-fixed-container ul.nav-tabs {
+  height: 41px;
+}
+
+.scrtabs-tabs-fixed-container ul.nav-tabs > li {
+  white-space: nowrap;
+}
